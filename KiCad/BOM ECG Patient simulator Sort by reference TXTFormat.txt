@@ -1,0 +1,46 @@
+Source:	C:\Users\Johan\Documents\Arduino\Projecten\ECG Simulator\KiCad ECG Patient simulator\ECG Patient simulator.sch
+Date:	14/11/2020 13:43:31
+Tool:	Eeschema (5.1.0)-1
+Component Count:	41
+Ref	Value	Part	Footprint	Description	Vendor
+C1	10uF	Device:CP	Capacitor_THT:CP_Radial_D6.3mm_P2.50mm	Polarized capacitor	
+C2	2,2uF	Device:CP	Capacitor_THT:CP_Radial_D6.3mm_P2.50mm	Polarized capacitor	
+C3	100nF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C4	100nF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C5	22pF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C6	22pF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C7	200nF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C8	47nF	Device:C	Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm	Unpolarized capacitor	
+C9	1uF	Device:CP_Small	Capacitor_THT:CP_Radial_D6.3mm_P2.50mm	Polarized capacitor, small symbol	
+D1	1N4148	Diode:1N4148	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	100V 0.15A standard switching diode, DO-35	
+D2	1N4148	Diode:1N4148	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	100V 0.15A standard switching diode, DO-35	
+D3	1N4148	Device:D	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	Diode	
+D4	1N4148	Diode:1N4148	Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal	100V 0.15A standard switching diode, DO-35	
+D5	1N4001	Diode:1N4001	Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal	50V 1A General Purpose Rectifier Diode, DO-41	
+D6	LED	Device:LED	LED_THT:LED_D5.0mm	Light emitting diode	
+J1	Battery Connector	Connector_Generic:Conn_01x02	Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J2	LeadWire Connector	Connector_Generic:Conn_02x05_Odd_Even	Connector_PinSocket_2.54mm:PinSocket_2x05_P2.54mm_Vertical	Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)	
+J3	Speaker Connector	Connector_Generic:Conn_01x02	Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical	Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)	
+J4	Att Resistor	Connector_Generic:Conn_01x05	Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical	Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)	
+Q1	IRFU9024	Transistor_FET:IRFU9024	Package_TO_SOT_THT:TO-251-3_Vertical	-5A Id, -60V Vds, 0,28Ohm Rds, P-Channel MOSFET	
+Q2	2N7000	Transistor_FET:2N7000	Package_TO_SOT_THT:TO-92_Inline	0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92	
+Q3	2N7000	Transistor_FET:2N7000	Package_TO_SOT_THT:TO-92_Inline	0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92	
+R1	56K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R2	56K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R3	220R	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R4	10K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R5	5K6	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R6	2K7	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R7	10K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R8	1K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R9	330K	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R10	330R	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R11	27R	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R12	82R	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+R13	390R	Device:R	Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal	Resistor	
+SW1	UP	Switch:SW_Push_Dual_x2	Button_Switch_THT:Push_E-Switch_KS01Q01	Push button switch, generic, separate symbols, four pins	
+SW2	DOWN	Switch:SW_Push_Dual_x2	Button_Switch_THT:Push_E-Switch_KS01Q01	Push button switch, generic, separate symbols, four pins	
+SW4	DIP_x02	Switch:SW_DIP_x02	Package_DIP:DIP-4_W7.62mm	2x DIP Switch, Single Pole Single Throw (SPST) switch, small symbol	
+U1	ATmega328-PU	MCU_Microchip_ATmega:ATmega328-PU	Package_DIP:DIP-28_W7.62mm	20MHz, 32kB Flash, 2kB SRAM, 1kB EEPROM, DIP-28	
+U2	LE50ABZ	Regulator_Linear:LE50ABZ	Package_TO_SOT_THT:TO-92_Inline_Wide	5V Voltage Regulator Low voltage Drop 100mA	
+Y1	16Mhz	Device:Crystal	Crystal:Crystal_HC18-U_Vertical	Two pin crystal	
